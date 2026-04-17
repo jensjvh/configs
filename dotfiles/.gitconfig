@@ -1,0 +1,7 @@
+[user]
+	name = jensjvh
+	email = 43621451+jensjvh@users.noreply.github.com
+[core]
+	editor = vim
+[alias]
+	lg = log --oneline --graph --decorate --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset'
