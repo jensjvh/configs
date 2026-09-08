@@ -1,15 +1,16 @@
 #!/usr/bin/env bash
 
-# shell
-chsh -s /usr/bin/zsh
-#######
 
 cd ~
 
 # packages
 sudo dnf upgrade --refresh -y
-sudo dnf install -y git wget tree-sitter-cli tmux foot
+sudo dnf install -y git wget tree-sitter-cli tmux foot zsh
 ###################
+
+# shell
+usermod -s /usr/bin/zsh $USER
+#######
 
 # neovim
 wget https://github.com/neovim/neovim/releases/latest/download/nvim-linux-x86_64.tar.gz
