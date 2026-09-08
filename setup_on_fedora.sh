@@ -9,7 +9,7 @@ sudo dnf install -y git wget tree-sitter-cli tmux foot zsh
 ###################
 
 # shell
-usermod -s /usr/bin/zsh $USER
+usermod -s /usr/bin/zsh $(whoami)
 #######
 
 # neovim
